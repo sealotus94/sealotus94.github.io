@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.containertop{
+    text-align: center;
+    background-color:rgb(61, 61, 61);
+    margin-top: none;    
+/*add icons here instead, like instagram, twitter, discord, youtube etc*/
+}
+
+.container{
+    text-align:center;
+    background-color: rgba(104, 103, 103, 0.288);  
+    font-family: 'Abel', sans-serif;
+    padding: 5px 15px 5px;
+    font-size:25px;
+    font-stretch: 5px;
+    color:white;
+}
+.col-sm-4{
+    color:white;
+}

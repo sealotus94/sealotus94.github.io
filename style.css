@@ -1,0 +1,234 @@
+body {
+       
+background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,    
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 rgb(60, 94, 140);
+background-size:110px 200px;
+background-repeat:repeat-x;
+
+margin-left: 2cm;
+margin-right: 2cm;
+margin-bottom: 2cm;
+padding: none;
+overflow-x:hidden;
+}
+
+/* Lists| Horizontal Unordered list*/
+.navigation {
+    margin-left:0px;
+    padding-left:0px;
+    display: inline;
+    color:white;
+}.navigation ul li{
+    margin-left:-6px;
+    padding:5px 15px 5px;
+    border: 2px solid rgb(255, 255, 255);
+    list-style: none;
+    display:inline; 
+    font-family:'Shadows Into Light',cursive;
+}
+/*Ordered Vertical List 'Hobbies'*/
+.inline-list {
+  border:4px dotted yellow;
+  border-radius:10px;
+  line-height:1.5;
+  width:267px;
+  height: 250px;
+  padding:30px;
+  display:inline-block;
+  clear:right;
+  text-align:left;
+  font-family:'Shoadows Into Light', cursive;
+  margin: 15px;
+  position:relative;
+  left:203px; 
+  background-color: rgba(231, 125, 139, 0.74);
+  color:rgb(255, 255, 255);
+}
+.BandPicture {
+    right:255px;
+    position: absolute;
+    display:inline-block;
+    text-align: left;
+}
+
+/*Headers and paragraph titles-->*/
+#header {
+    font-family:'Dancing Script',cursive;
+    line-height:140px;
+    font-size: 80px;
+    letter-spacing: 4px;
+    color: rgb(3, 201, 141);
+    text-align: center;  
+    font-weight:bold;
+}
+h2 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size:36px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-family: 'Shadows Into Light',cursive;
+}
+h4 {
+    color:#fffb00;
+    font-family: 'Shadows Into Light',cursive;
+    text-align: center;
+    font-size:19px;
+    letter-spacing:2;
+}
+p {
+    text-align: Justify;
+    text-indent:50px;
+    line-height: 1.5;
+    color:#000000;
+    font-style: "Times New Roman"; 
+    border: 25px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    background-color: rgba(255, 170, 0, 0.904); 
+    box-shadow: 10px 10px 5px rgb(18, 9, 49);
+}
+.outro {
+    color:rgb(3, 201, 141);
+    text-align: center;
+    text-decoration:none;
+    font-size:73px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family:'Tangerine', sans-serif;
+    line-height:2;
+    text-shadow: 4px 4px 4px black; 
+}
+
+/*For the Buttons Linking to UH pages*/
+.button{ 
+    margin: 15px;
+    position:relative;
+    left:285px; 
+    display:inline-block;
+    border-radius:10px;
+    background-color: rgb(94, 215, 252);
+    border:none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    padding:27px;
+    width:200px;
+    transition: all 0.5s;
+    cursor: pointer;    
+}
+.button span {
+    cursor: pointer;
+    display:inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 90%;
+    top: 0;
+    right:-20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity:8;
+    right:0;
+}
+a:link, a:visited {
+    background-color:none;
+    text-decoration:none;
+}
+
+/*second button*/
+.button2{ 
+    margin:15px;
+    position: absolute;
+    right: 383px;
+    display:inline-block;
+    border-radius:10px;
+    background-color:rgb(250, 191, 90);
+    border:none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    padding:27px;
+    width:200px;
+    transition: all 0.5s;
+    cursor: pointer;    
+}
+.button2 span {
+    cursor: pointer;
+    display:inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 90%;
+    top: 0;
+    right:-20px;
+    transition: 0.5s;
+}
+.button2:hover span {
+    padding-right: 25px;
+}
+.button2:hover span:after {
+    opacity:8;
+    right:0;
+}
+
+/*For the table*/ 
+#caption {
+    font-size:29px;
+    font-family:'shadows into light',sans-serif;
+    color:rgb(255, 174, 0);
+    letter-spacing:1px;
+    line-height:2.1;
+}
+table, th,td {
+    border: 1px solid black;
+
+}
+table tr:nth-child(even) {
+    background-color:Orange;
+}
+table tr:nth-child(odd){
+    background-color:White;
+}
+th {
+    background-color:Teal;
+    color:white;
+}
+th, td {
+    padding: 10px; 
+    text-align: center;
+}
+table {
+    border-spacing: 4px;
+    box-shadow: 10px 10px 5px black;
+    table-layout: fixed;    
+}
+
+/*Last Marquee*/
+.animation {
+   width:250px;
+   height:265px;
+   background:rgba(255, 0, 0, 0);
+   position:relative;
+   -webkit-animation:mymove 8s infinite; /* Safari 4.0 - 8.0 */ 
+   animation: mymove 8s infinite;
+   overflow-x:hidden;
+   overflow-y:hidden;   
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left:200px;}
+}
+@keyframes mymove {
+    from{left: -300px;}
+    to{left: 1250px;}
+}
